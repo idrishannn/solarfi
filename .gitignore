@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# Test ve araçlar
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editör / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LİSANSLI VERİ — buraya gerçek fiyat tahminlerini koy, repoya girmez
+data/private/
+data/*_licensed.csv
+*.xlsx
+examples/ornek_nakit_akisi.csv

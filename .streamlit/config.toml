@@ -1,0 +1,17 @@
+# Renkler konunun kendi dünyasından türetildi:
+# monokristal panelin derin mavisi yapısal renk, güneşlenmenin kehribarı vurgu.
+# Krem/terrakota ya da neon-üzeri-siyah gibi hazır şablonlardan kaçınıldı.
+
+[theme]
+base = "light"
+primaryColor = "#C8892B"              # kehribar — eylem ve vurgu
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EDF1F6"  # soğuk açık gri-mavi (krem değil)
+textColor = "#10243E"                 # panel mavisi
+font = "sans-serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
